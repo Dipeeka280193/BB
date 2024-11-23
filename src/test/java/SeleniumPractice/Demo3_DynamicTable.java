@@ -19,6 +19,9 @@ public class Demo3_DynamicTable {
 		
 		driver.manage().window().maximize();
 		
+		
+		///  new changes
+		
 	List<WebElement> rows	=driver.findElements(By.xpath("//table[@class='table table-striped']/tbody/tr"));
 	System.out.println("No of rows: " +rows.size());
 	
